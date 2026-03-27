@@ -1,0 +1,9 @@
+{
+  "_comment": "VERCEL DEPLOYMENT: This rewrite rule ensures React Router works continuously without 404s upon page refresh.",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

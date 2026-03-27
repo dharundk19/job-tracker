@@ -1,3 +1,9 @@
+/**
+ * DATABASE CONFIGURATION
+ * Note: Currently using MongoDB Atlas. 
+ * If you deploy to Supabase or Neon in the future, you MUST switch from Mongoose (MongoDB)
+ * to Prisma or raw SQL (PostgreSQL), as Supabase only supports PostgreSQL.
+ */
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
